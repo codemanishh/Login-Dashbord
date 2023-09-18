@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { useAuth0 } from '@auth0/auth0-react';
+import Navbar from './components/Navbar';
+import Loginpage from './components/Login';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const { isAuthenticated } = useAuth0();
+
+  // If the user is authenticated, redirect them to the Navbar page.
+  if (isAuthenticated) {
+    return <Navbar />;
+  }
+
+  // Otherwise, render the Login page.
+  return <>
+  <Loginpage />
+  </>;
 }
 
 export default App;
