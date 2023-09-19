@@ -1,0 +1,215 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.login-main-div{
+    display: flex;
+    flex-direction: row;
+    background-color: #e7e7e7;
+}
+.login-main-div-child1{
+    display: flex;
+    width: 20vw;
+    height: 100vh;
+    background-color: #397ced;
+}
+.login-main-div-child{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 100vh;
+    background-color: #e7e7e7;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 46vw;
+
+}
+.search-parent{
+    display: flex;
+    flex-direction: row;
+    gap :10px;
+    justify-content: center;
+    align-items: center;
+
+}
+.userimg{
+    border-radius: 67px;
+    width: 2vw;
+}
+.buttonlogout{
+    width: 55px;
+    padding: 5px;
+    border-radius: 51px;
+    color: white;
+    background-color: #397ced;
+    border: 2px solid white;
+    font-size: 11px;
+}
+.search{
+    width: 13vw;
+    padding: 8px;
+    border-radius: 51px;
+    /* color: white; */
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    font-size: 11px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 1px solid red;
+    width: 164px;
+    background-color: white;
+    padding: 13px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 29px;
+}
+.green{
+background-color: #00aa41;
+width: 19px;
+    padding: 3px;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    background-color: #b9533a;
+    width: 19px;
+    padding: 3px;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow{
+    background-color: #d1cf35;
+    width: 19px;
+    padding: 3px;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voilate{
+    background-color: #3f67bd;
+    width: 19px;
+    padding: 3px;
+    border-radius: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart-css{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 41px;
+    width: 61vw;
+    margin: 28px;
+    background-color: #ffffff;
+}
+.chart-gph{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chart-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.activity{
+    font-size: 22px;
+    font-weight: bolder;
+    margin-left: 52px;
+    margin-top: 4px;
+}
+.myjune{
+    font-size: 11px;
+    font-weight: bolder;
+    margin-left: 56px;
+    margin-top: -1px;
+    color: #747070;
+}
+.login-main-div-child1{
+    display: flex;
+    color: #f1eeee;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 38px;
+    padding: 0px;
+    margin: 30px;
+}
+.right-main{
+    display: flex;
+    flex-direction: column;
+    color: #f1eeee;
+    border-radius: 38px;
+    padding: 0px;
+    margin: 30px;
+    margin-top: 11vh;
+    padding: 27px;
+    gap: 28px;
+}
+.tb{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.board{
+    font-size: 20px;
+}
+.add-new{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.circle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.add-new{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-main-div{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100%;
+}
+.new-pi-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #ffffff;
+    height: 30vh;
+    width: 26vw;
+}
