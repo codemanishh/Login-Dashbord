@@ -125,10 +125,10 @@ const Navbar = () => {
           <div className='new-pi-card'>
             <Piechart />
           </div>
-          <div>
+          <div className='no-class'>
             {/* Display the profile data if it exists */}
             {profileData && (
-              <div className="card1">
+              <div className="card2">
                 <div className='green'><GrAdd /></div>
                 <div><AiOutlineInstagram/>: {profileData.name}</div>
                 <div><CgMail/>: {profileData.email}</div>
@@ -140,7 +140,7 @@ const Navbar = () => {
             {/* Display the form or the "Add Profile" button */}
             {showForm ? (
               <div>
-                <form onSubmit={handleFormSubmit}>
+                <form className='card2' onSubmit={handleFormSubmit}>
                   <div>
                     <label htmlFor="name">Instagram:</label>
                     <input

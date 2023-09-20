@@ -17,15 +17,19 @@
     display: flex;
     flex-direction: column;
     width: 80vw;
-    height: 100vh;
+    height: 100%;
     background-color: #e7e7e7;
+    padding: 20px;
+    margin-top: 70px;
 }
 .nav{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 46vw;
+    gap: 29vw;
+    font-size: 25px;
+    margin-top: -21px;
 
 }
 .search-parent{
@@ -63,11 +67,13 @@
     flex-direction: column;
     gap: 2px;
     border-radius: 1px solid red;
-    width: 164px;
+    width: 139px;
     background-color: white;
-    padding: 13px;
+    padding: 18px;
     border-radius: 17px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    gap: 5px;
+    height: 64px;
 }
 .cards{
     display: flex;
@@ -184,13 +190,12 @@ width: 19px;
     align-items: center;
     gap:20px;
 }
-.circle{
+.circle {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap; /* Allow children to wrap to the next row */
+    justify-content: space-between; /* Distribute space evenly between children */
     gap: 30px;
-}
+  }
 .add-new{
     display: flex;
     flex-direction: column;
@@ -212,4 +217,22 @@ width: 19px;
     background-color: #ffffff;
     height: 30vh;
     width: 26vw;
+}
+.no-class{
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 1px solid red;
+    width: 257px;
+    background-color: white;
+    padding: 45px;
+    border-radius: 17px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    gap: 13px;
+    height: 129px;
 }

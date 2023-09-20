@@ -9,6 +9,7 @@ function App() {
   // If the user is authenticated, redirect them to the Navbar page.
   if (isAuthenticated) {
     return <Navbar />;
+    
   }
 
   // Otherwise, render the Login page.

@@ -7,7 +7,7 @@ const Login = () => {
     const { loginWithRedirect } = useAuth0();
     return (
         <>
-            <div className='login-main-div'>
+            <div className='login-main-div new-a'>
                 <div className='login-main-div-child style-child-1'>
 
                 </div>
